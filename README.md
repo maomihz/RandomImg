@@ -1,4 +1,4 @@
 RandomImg
 =========
 
-Random image generator
+Random image generator with rebol language. 
