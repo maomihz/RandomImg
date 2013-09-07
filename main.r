@@ -1,7 +1,8 @@
 rebol [
 version: 3.1.5
 date: 2013-9-7
-title: "random image generator by MaomiHz"
+title: "random image generator"
+author: "MaomiHz"
 ]
 rig: func [{generate a random image} 
 	width [integer!] "width of the image" 
