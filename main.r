@@ -1,6 +1,6 @@
 rebol [
 version: 3.1.4
-date: 2013-8-29
+date: 2013-9-7
 ]
 rig: func [{generate a random image} width [integer!] "width of the image" height [integer!] "height of the image" num [integer!] "how many images you want to generate" blocknum [integer!] "" grayscale? [string!] "y/n if you type anything else, it will generate 256-bit RGB image"] [
 	either grayscale? = "y" [grayscale: true] [grayscale: false]
