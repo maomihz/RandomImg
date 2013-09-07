@@ -1,5 +1,5 @@
 rebol [
-version: 3.1.5
+version: 3.1.6
 date: 2013-9-7
 title: "random image generator"
 author: "MaomiHz"
@@ -7,10 +7,12 @@ author: "MaomiHz"
 rig: func [{generate a random image} 
 	width [integer!] "width of the image" 
 	height [integer!] "height of the image" 
-	num [integer!] "how many images you want to generate" 
 	blocknum [integer!] "No description" 
 	/gray "generate 16-bit grayscale image (for Kindle)"
+	/multi "generate multiply images"
+	num [integer!] "how many images you want to generate" 
 ] [
+	if not multi [num: 1]
 	either gray [grayscale: true] [grayscale: false]
 	size: copy []
 	insert size height
