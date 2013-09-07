@@ -11,3 +11,9 @@ version 3.1.5 [2013-9-7]
 1.Enhanced user interface, add refinement "/gray"
 2.Packed Mac version of REBOL into repository.
 ===========
+
+version 3.1.6 [2013-9-7]
+1.add refinement /multi to generate multiple images. You will notice it on user guide
+===========
+
+
