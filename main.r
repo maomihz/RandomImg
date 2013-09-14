@@ -1,6 +1,6 @@
 rebol [
 version: 3.1.6
-date: 2013-9-7
+date: 2013-9-13
 title: "random image generator"
 author: "MaomiHz"
 ]
@@ -79,5 +79,5 @@ rig: func [{generate a random image}
 
 		write filename encode 'bmp img
 	]
-	print "complete"
+	print ["complete" "generated" num "images"]
 ]
